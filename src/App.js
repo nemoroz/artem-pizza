@@ -1,10 +1,10 @@
-function App() {
-  return (
-    <>
-    <h1>Artem-pizza working on React</h1>
-    <p>In Progress</p>
-    </>
-  );
+import React from "react";
+import PizzaConstructor from "./PizzaConstructor";
+
+const App = () => {
+  return <>
+    <PizzaConstructor />
+  </>;
 }
 
 export default App;
